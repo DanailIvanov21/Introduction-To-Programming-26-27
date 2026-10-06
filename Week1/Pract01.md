@@ -19,14 +19,6 @@
 
 <img width="653" height="571" alt="Screenshot (1297)" src="https://github.com/user-attachments/assets/d329a579-a02a-4eb5-99bc-9c213dd2e0f6" />
 
-<img width="1147" height="836" alt="Screenshot (1298)" src="https://github.com/user-attachments/assets/a2ea3d28-dee1-40a2-aa62-9c5199ae0e2d" />
-
-
-<img width="1165" height="516" alt="Screenshot (1301)" src="https://github.com/user-attachments/assets/cb47fe36-e7de-4749-9662-2e4913bc39ad" />
-
-
-<img width="928" height="397" alt="Screenshot (1300)" src="https://github.com/user-attachments/assets/b50ee9ab-1198-4966-a493-1f0f8e1eb4fa" />
-
 
 
 Всеки оператор се характеризира с:
