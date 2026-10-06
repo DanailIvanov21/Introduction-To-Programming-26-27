@@ -19,7 +19,7 @@
 
 <img width="653" height="571" alt="Screenshot (1297)" src="https://github.com/user-attachments/assets/d329a579-a02a-4eb5-99bc-9c213dd2e0f6" />
 
-
+<img width="1147" height="836" alt="Screenshot (1298)" src="https://github.com/user-attachments/assets/a2ea3d28-dee1-40a2-aa62-9c5199ae0e2d" />
 
 Всеки оператор се характеризира с:
 
