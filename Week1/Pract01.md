@@ -200,16 +200,23 @@ x--
 
 **1.** Какво ще отпечата на екрана следният код?
 
-```c
-#include <iostream>
+```c    
+#include <stdio.h>
+
 int main()
 {
-    double a = 5.02;
-    double b = 4.99;
-    int c = a + b;
-    std::cout << c;
+
+  double a = 5.02;
+  double b = 4.99;
+
+  int c = a + b;
+
+  printf("%d", c);
+
+  return 0;
 }
 ```
+
 --- 
 
 ## Най-често използвани форматиращи спецификатори в C
