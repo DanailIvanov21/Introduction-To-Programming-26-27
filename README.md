@@ -12,6 +12,8 @@
 
 ### Как да се свържете с нас ?
 Данаил Иванов : 
+email: dani.21@abv.bg
+Discord: danailivanov
 
 Мирела Стоянова :  
 email: mirela.stoyanova14@gmail.com  
