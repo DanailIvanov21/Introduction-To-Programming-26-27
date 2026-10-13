@@ -1,3 +1,5 @@
+### Променливи и примитивни типове
+
 
 <img width="653" height="571" alt="Screenshot (1297)" src="https://github.com/user-attachments/assets/d329a579-a02a-4eb5-99bc-9c213dd2e0f6" />
 
@@ -25,37 +27,47 @@
 
 **1.** Какво ще отпечата на екрана следният код?
 
-```c++
-#include <iostream>
-int main()
-{
-    std::cout << (((false || ((!false && true) || 0)) && false) && 1);
+```c
+#include <stdio.h>
+
+int main() {
+    
+    printf("%d\n", (((false || ((!false && true) || 0)) && false) && 1));
+    return 0;
 }
+
 ```
 
 **2.** Какво ще отпечата на екрана следният код?
-```c++
-#include <iostream>
+```c
+#include <stdio.h>
 
-int main()
-{
+int main() {
     int first = 7;
     int second = 2;
 
-    std::cout << 2 * first / (second * (25 / 10)) << std::endl;
-    std::cout << 2 * first / (second * 2.5) << std::endl;
+    printf("%d\n", 2 * first / (second * (25 / 10)));
+    printf("%f\n", 2 * first / (second * 2.5));
+    
+    return 0;
 }
+
 
 ```
 
 **3.** Какво ще се случи след компилиране на следния код?
-```c++
-#include <iostream>
-int main()
-{
+```c
+#include <stdio.h>
+
+int main() {
     int num = 5;
-    std::cout << ((num == 5) && (num >= 3) || (num / !num)) << std::endl;
+    
+    printf("%d\n", ((num == 5) && (num >= 3) || (num / !num)));
+    
+    return 0;
 }
+
+
 ```
 
 ## Задачи
