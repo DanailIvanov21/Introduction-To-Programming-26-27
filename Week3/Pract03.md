@@ -408,4 +408,33 @@ A E c e e
 Изход:
 ```c++
 true, true, false, false
-```
+```  
+---
+### Задачи от минали контролни и домашни за вкъщи  
+
+<img width="1045" height="589" alt="Screenshot 2026-10-20 223341" src="https://github.com/user-attachments/assets/5e1781fa-1d40-4416-90b9-9ce6eb673de3" />  
+<img width="967" height="259" alt="Screenshot 2026-10-20 223727" src="https://github.com/user-attachments/assets/e16869b2-32d0-4bf6-8c82-855e3a23f4e7" />  
+<img width="655" height="782" alt="image1" src="https://github.com/user-attachments/assets/10849009-6d3c-4fb4-93bf-24119ce7dba6" />  
+<img width="723" height="595" alt="image2" src="https://github.com/user-attachments/assets/522ff07a-fb54-41a0-811d-55945eef3fc4" />  
+
+<table>
+  <tr>
+    <td width="30%" align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/63474fc4-ab51-4afe-847a-5bb08fb9c22e"  alt="Сладолед" width="200">
+    </td>
+    <td width="70%" valign="top">
+      
+## Задача: Препокриване на точки (Сладолед)
+
+Напишете програма, която по дадена точка с реални координати, въведени от стандартния вход, определя дали точката принадлежи на **"вафлената" фуния**, на **"топката ментов сладолед"** или на **"топката шоколадов сладолед"**.
+
+### Описание на геометричните фигури:
+* **Фунията** се определя от координатите на триъгълника с върхове: `(-1, -2)`, `(5, -2)` и `(2, -10)`.
+* **Топката ментов сладолед** се определя от окръжност с център `(2, 0)` и радиус `4`.
+* **Топката шоколадов сладолед** се определя от окръжност с център `(4, 4)` и радиус `4`.
+
+    </td>
+  </tr>
+</table>
+
+
