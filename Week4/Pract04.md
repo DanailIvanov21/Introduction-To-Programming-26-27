@@ -154,7 +154,22 @@ int main()
 
     return 0;
 }
-```
+```  
+
+### **4.** Какво ще се случи в следният код?  
+
+```c
+#include <stdio.h>
+
+int main() {
+    unsigned char i;
+    for (i = 3; i >= 0; i--) {
+        printf("%d ", i);
+    }
+    return 0;
+} 
+```  
+
 
 ### Задачи
 
