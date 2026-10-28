@@ -162,7 +162,7 @@ int main()
 #include <stdio.h>
 
 int main() {
-    unsigned char i;
+     unsigned i;
     for (i = 3; i >= 0; i--) {
         printf("%d ", i);
     }
