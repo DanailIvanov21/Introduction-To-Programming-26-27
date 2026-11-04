@@ -89,10 +89,10 @@ a |= (setBit << 3);
 int a = 6;
 //a = 00000110
 
-int unsetBit = 0;
-//unsetBit = 00000000
+int unsetBit = 1;
+//unsetBit = 00000001
 
-a &= unsetBit << 2;
+a ^= unsetBit << 2;
 //Вече а има стойност 2 и изглежда така
 // а = 00000010
 ```  
