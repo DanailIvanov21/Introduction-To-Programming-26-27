@@ -1,7 +1,7 @@
 ## Примери
 **1.** **Какво ще отпечата на екрана следният код?**
 ```c
-#include <iostream>
+#include <stdio.h>
 int main()
 {
     int i = 9;
@@ -12,31 +12,31 @@ int main()
         if (i == 9)
             continue;        
         i--;
-        std::cout << i << std::endl;
+        printf("%d", i);
     }
 }
 ```
 
 **2.** **Какво ще се случи при изпълнение на следния код?**
 ```c
-#include <iostream>
+#include <stdio.h>
 int main()
 {
     while ()
     {
-        std::cout << 3;
+        printf("3");
     }
 }
 ```
 **А тук?**
 
 ```c
-#include <iostream>
+#include <stdio.h>
 int main()
 {
     for( ; ; )
     {
-        std::cout << 3;
+        printf("3");
     }
 }
 ```
@@ -44,7 +44,7 @@ int main()
 **3.** **Какво ще отпечата на екрана следният код?**
 ```c++
     for(int i = 5, j = 21;  j - i > 6 ;  j--, ++i){
-        std::cout<< i << ' ' << j << std::endl;
+        printf("%d %d", i,j);
     }
 ```
 
@@ -93,14 +93,14 @@ int main()
 {
 	int number = 1;
 	func(number);
-	std::cout << number << endl; //1
+	printf("%d", number); //1
 }
 ```
 
 ## Примери за *ФУНКЦИИ*
 **1.** Какво бихте променили в следния  код?
 ```c
-#include <iostream>
+#include <stdio.h>
 void printPrimeDivs(int num)
 {
     if (num == 0)
@@ -109,17 +109,17 @@ void printPrimeDivs(int num)
     {
         if (num % i == 0)
         {
-            bool isPrimeDiv = true;
+            int isPrimeDiv = 1;
             for (int j = 2; j <= sqrt(i); j++)
             {
                 if (i % j == 0)
                 {
-                    isPrimeDiv = false;
+                    isPrimeDiv = 0;
                     break;
                 }
             }
             if (isPrimeDiv)
-                std::cout << i << " ";
+                printf("%d", i);
         }
     }
 }
@@ -127,23 +127,23 @@ void printPrimeDivs(int num)
 
 **2.** Какво ще отпечата на екрана следният код?
 ```c
-#include <iostream>
-bool f() {
-    std::cout << 5;
-    return false;
+#include <stdio.h>
+int f() {
+    printf("5");
+    return 0;
 }
-bool g() {
-    std::cout << 123;
-    return true;
+int g() {
+    printf(123);
+    return 1;
 }
-bool h() {
-    std::cout << 0;
-    return true;
+int h() {
+    printf(0);
+    return 1;
 }
 void k()
 {
-    std::cout << (h() || g() || f()) << std::endl;
-    std::cout << (g() && f() && h()) << std::endl;
+   printf("%d", (h() || g() || f()) );
+   printf("%d" (g() && f() && h()) );
 }
 ```
 
