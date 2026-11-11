@@ -20,12 +20,19 @@ int main()
 **2.** **Какво ще се случи при изпълнение на следния код?**
 ```c
 #include <stdio.h>
+
 int main()
 {
-    while ()
-    {
-        printf("3");
+   unsigned p = 3;
+   while (p >= 0)
+    { 
+      unsigned p = 2;
+      p--;
+        
+      printf("%d ", p);
     }
+    
+    return 0;
 }
 ```
 **А тук?**
