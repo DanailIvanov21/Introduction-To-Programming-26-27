@@ -1,6 +1,6 @@
 include <stdio.h>
 
-unsigned removeMiddle(unsigned num)// фунцкия за пречахване на средните цифри
+unsigned removeMiddle(unsigned num)// функция за премахване на средните цифри
 {
     unsigned reversed = 0; // променлива, в която ще пазим обърнатото число
     unsigned temp = num;// променлива върху която ще обработваме числото
@@ -14,7 +14,7 @@ unsigned removeMiddle(unsigned num)// фунцкия за пречахване �
         digits++;
     }
 
-    unsigned skip1, skip2;// две променливи за всяко пропуснато число по индекс започващ от 1
+    unsigned skip1, skip2;// две променливи за всяко пропуснато число по индекс започващо от 1
 
     if (digits % 2 == 0)// ако е четен брой цифри числото махаме 2
     {
@@ -55,9 +55,9 @@ int main()
 
     scanf("%u", &num);
 
-    unsigned result = removeMiddle(num); // записваме новото число получено от фунцкията.
+    unsigned result = removeMiddle(num); // записваме новото число получено от функцията.
 
-    printf("%u %u", result, result + 1);//принтираме числот и следващото
+    printf("%u %u", result, result + 1);//принтираме числото и следващото
 
     return 0;
 }
